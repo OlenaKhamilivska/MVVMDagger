@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="16dp"
+    android:paddingStart="16dp"
+    android:paddingEnd="16dp"
+    android:orientation="vertical"
+    tools:context=".presentation.MainActivity">
+
+
+    <TextView
+        android:id="@+id/dataTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No data"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="68dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/receiveButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get data"
+        android:height="50dp"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="136dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/dataEditView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter data here"
+        android:height="50dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="215dp"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/sendButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save data"
+        android:height="50dp"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="284dp"
+        tools:ignore="MissingConstraints" />
+
+</LinearLayout>
